@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Russo+One&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ text-transform: none;
+ text-decoration: none;
+}
+
+body{
+    background-color: #232323;
+    font-family: 'Inter';
+}
+
+#cabeçalho{
+    color: #fff;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 90px;
+    align-items:center;
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header{
+    position: relative;
+    padding-left: 10vh;
+    font-size: 25px;
+    left: 35%;
+    color: #fff;
+}
+
+.empresa{
+    color: #fff;
+    font-size: 60px;
+    padding-right: 0;
+}
+
+.aviso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 30vh;
+}

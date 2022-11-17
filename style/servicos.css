@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Russo+One&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ text-transform: none;
+ text-decoration: none;
+}
+
+body{
+    background-color: #232323;
+    font-family: 'Inter';
+}
+
+#cabeçalho{
+    color: #fff;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 90px;
+    align-items:center;
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header{
+    position: relative;
+    padding-left: 10vh;
+    font-size: 25px;
+    left: 35%;
+    color: #fff;
+}
+
+.empresa{
+    color: #fff;
+    font-size: 60px;
+    padding-right: 0;
+}
+
+.caixona{
+    font-family: 'Inter';
+}
+.caixa{
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    color:black;
+    width: 430px;
+    height: 650px;
+    top: 15vh;
+    left: 8%;
+    font-size: 35px;
+    padding: 1%;
+}
+
+h2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 70px;
+    background-color: #32B8E2;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 15px;
+    padding-left: 26%;
+    padding-right: 26%;
+    color: white;
+}
+
+.caixona2{
+    font-family: 'Inter';
+}
+.caixa2{
+    position: absolute;
+    background: #fff;
+    border-radius: 20px;
+    color:black;
+    width: 430px;
+    height: 650px;
+    top: 24%;
+    left: 37%;
+    font-size: 35px;
+    padding: 1%;
+}
+
+h3{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 70px;
+    background-color: #8032E2;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 15px;
+    padding-left: 38%;
+    padding-right: 38%;
+    color: white;
+}
+
+.caixona3{
+    font-family: 'Inter';
+}
+.caixa3{
+    position: absolute;
+    background: #fff;
+    border-radius: 20px;
+    color:black;
+    width: 430px;
+    height: 650px;
+    top: 24%;
+    left: 66%;
+    font-size: 35px;
+    padding: 1%;
+}
+
+h4{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 70px;
+    background-color: #E29C32;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 15px;
+    padding-left: 39%;
+    padding-right: 38%;
+    color: white;
+}
+
+.botão1{
+    font-size: 38px;
+    width: 200px;
+    height: 70px;
+    background: #2CDA00;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botão2{
+    font-size: 38px;
+    width: 200px;
+    height: 70px;
+    background: #2CDA00;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botão3{
+    font-size: 38px;
+    width: 200px;
+    height: 70px;
+    background: #2CDA00;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    font-size: 90px;
+    left: 18%;
+    top: 10%;
+}
+
+.verde{
+    color: #2CDA00;
+}
+
+button:hover{
+    background: #104702;
+}
+
+.preço{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preço2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preço3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

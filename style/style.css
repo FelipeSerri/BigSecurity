@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Russo+One&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+}
+
+body{
+    background-color: #232323;
+    font-family: 'Inter';
+    color:#fff; 
+}
+
+#cabeçalho{
+    color: white;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 90px;
+    align-items:center;
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.header{
+    position: relative;
+    padding-left: 10vh;
+    font-size: 25px;
+    left: 35%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.empresa{
+    font-size: 60px;
+    padding-right: 0;
+    color:#FFFFFF;
+}
+
+a{
+    text-transform: none;
+    text-decoration-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bloco1{
+    display:flex;
+    align-items: center;
+    padding-top: 4vh;
+}
+
+.titulo{
+    position:absolute;
+    font-size: 50px;
+    top: 16vh;
+    left: 15vh;
+}
+
+.descrição1{
+    padding-right: 30vh;
+    padding-left: 15vh;
+    font-size: 30px;
+}
+
+.bloco2{
+    display:flex;
+    align-items: center;
+    padding-left: 14vh;
+    padding-top: 7vh;
+}
+
+.titulo2{
+    position:absolute;
+    font-size: 50px;
+    top: 54vh;
+    left: 75vh;
+}
+
+.descrição2{
+    padding-left: 30vh;
+    font-size: 30px;
+}
+
+.bloco3{
+    display:flex;
+    align-items: center;
+    padding-top: 7vh;
+}
+
+.titulo3{
+    position:absolute;
+    font-size: 50px;
+    top: 88vh;
+    left: 15vh;
+}
+
+.descrição3{
+    padding-right: 30vh;
+    padding-left: 15vh;
+    font-size: 30px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0%;
+    padding-bottom: 7vh;
+}
+
+#sobre{
+    font-size: 70px;
+}
+
+.descrição4{
+    padding-top: 2vh;
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    top: 170%;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.endereço{
+    position: absolute;
+    top: 165%;
+    font-size: 20px;
+}

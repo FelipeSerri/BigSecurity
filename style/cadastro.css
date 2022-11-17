@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Russo+One&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ text-transform: none;
+ color: #fff;
+}
+
+body{
+    background-color: #232323;
+    font-family: 'Inter';
+}
+
+#cabeçalho{
+    color: #fff;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 90px;
+    align-items:center;
+}
+
+.form{
+    position: absolute;
+    width: 40%;
+    height: 55%;
+    left: 33%;
+    top: 35%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.form div{
+    margin: 30px;
+}
+
+#nome-1{
+    color: black;
+    font-size: 60px;
+}
+
+#email-1{
+    color: black;
+    font-size: 60px;
+}
+
+#celular-1{
+    color: black;
+    font-size: 60px;
+}
+
+#senha-1{
+    color: black;
+    font-size: 60px;
+}
+
+#nome{
+    position: relative;
+    height: 60px;
+    width: 380px;
+    left: 105px;
+    top: -15px;
+    font-size: 40px;
+    color: black;
+}
+
+#email{
+    position: relative;
+    height: 60px;
+    width: 380px;
+    left: 75px;
+    top: -16px;
+    font-size: 30px;
+    color: black;
+}
+
+#number{
+    position: relative;
+    height: 60px;
+    width: 380px;
+    left: 10px;
+    top: -16px;
+    font-size: 40px;
+    color: black;
+}
+
+#senha{
+    position: relative;
+    height: 60px;
+    width: 380px;
+    left: 75px;
+    top: -16px;
+    font-size: 40px;
+    color: black;
+}
+
+button{
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    left: 63%;
+    top: 80%;
+    background: #2CDA00;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #68cc4f;
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header{
+    position: relative;
+    padding-left: 10vh;
+    font-size: 25px;
+    left: 35%;
+}
+
+.empresa{
+    font-size: 60px;
+    padding-right: 0;
+    color:#FFFFFF;
+}
+
+#titulo{
+    font-size: 8vh;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    position: absolute;
+    left: 68vh;
+    top: 17vh;
+}
+
+a{
+    text-transform: none;
+    text-decoration-color: #FFFFFF;
+    text-decoration: none;
+}
