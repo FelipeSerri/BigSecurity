@@ -129,13 +129,13 @@ a{
 .end{
     position: absolute;
     color: #f9004d;
-    top: 170%;
+    top: 175%;
     font-size: 20px;
     padding-bottom: 30px;
 }
 
 .endereço{
     position: absolute;
-    top: 165%;
+    top: 170vh;
     font-size: 20px;
 }
