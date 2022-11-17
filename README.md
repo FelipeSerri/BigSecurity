@@ -1,3 +1,3 @@
 # BigSecurity
-Projeto da Faculdade!
+Meu projeto da Faculdade!
 link do site hospedado: https://big-security.netlify.app
