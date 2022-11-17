@@ -2,34 +2,59 @@
 *{
  margin: 0;
  padding: 0;
- text-transform: none;
- color: #fff;
+ text-decoration: none;
 }
 
 body{
     background-color: #232323;
     font-family: 'Inter';
+    color:#fff; 
 }
 
 #cabeçalho{
-    color: #fff;
+    color: white;
     font-family: 'Inter';
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     background-color: black;
     height: 90px;
-    align-items:center;
+    align-items:center;  
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin: 1%;
+}
+
+.header{
+    position: relative;
+    margin: 5%;
+    left: 75%;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.empresa{
+    position: relative;
+    font-size: 60px;
+    margin-left: 2%;
+    color:#FFFFFF;
 }
 
 .form{
-    position: absolute;
+    position: relative;
     width: 40%;
     height: 55%;
-    left: 33%;
-    top: 35%;
+    margin-left: 28%;
+    margin-top: 12%;
     background: #FFFFFF;
     border-radius: 20px;
+    padding-bottom: 5%;
 }
 
 .form div{
@@ -37,21 +62,25 @@ body{
 }
 
 #nome-1{
+    position: relative;
     color: black;
     font-size: 60px;
 }
 
 #email-1{
+    position: relative;
     color: black;
     font-size: 60px;
 }
 
 #celular-1{
+    position: relative;
     color: black;
     font-size: 60px;
 }
 
 #senha-1{
+    position: relative;
     color: black;
     font-size: 60px;
 }
@@ -60,8 +89,8 @@ body{
     position: relative;
     height: 60px;
     width: 380px;
-    left: 105px;
-    top: -15px;
+    margin-left: 105px;
+    margin-top: -15px;
     font-size: 40px;
     color: black;
 }
@@ -70,8 +99,8 @@ body{
     position: relative;
     height: 60px;
     width: 380px;
-    left: 75px;
-    top: -16px;
+    margin-left: 75px;
+    margin-top: -16px;
     font-size: 30px;
     color: black;
 }
@@ -80,8 +109,8 @@ body{
     position: relative;
     height: 60px;
     width: 380px;
-    left: 10px;
-    top: -16px;
+    margin-left: 10px;
+    margin-top: -16px;
     font-size: 40px;
     color: black;
 }
@@ -90,8 +119,8 @@ body{
     position: relative;
     height: 60px;
     width: 380px;
-    left: 75px;
-    top: -16px;
+    margin-left: 75px;
+    margin-top: -16px;
     font-size: 40px;
     color: black;
 }
@@ -100,8 +129,8 @@ button{
     position: absolute;
     width: 140px;
     height: 70px;
-    left: 63%;
-    top: 80%;
+    margin-left: 58%;
+    margin-top: -6%;
     background: #2CDA00;
     border-radius: 5px;
     font-size: 30px;
@@ -112,26 +141,6 @@ button:hover{
     background: #68cc4f;
 }
 
-.header1{
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-    align-items: center;
-    text-decoration: none;
-}
-
-.header{
-    position: relative;
-    padding-left: 10vh;
-    font-size: 25px;
-    left: 35%;
-}
-
-.empresa{
-    font-size: 60px;
-    padding-right: 0;
-    color:#FFFFFF;
-}
 
 #titulo{
     font-size: 8vh;

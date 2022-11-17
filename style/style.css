@@ -25,22 +25,25 @@ body{
 .header1{
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
     align-items: center;
+    position: relative;
+    margin: 1%;
+    margin-right: 10%;
 }
 
 .header{
     position: relative;
-    padding-left: 10vh;
+    margin: 5%;
+    left: 75%;
     font-size: 25px;
-    left: 35%;
     color: #fff;
     cursor: pointer;
 }
 
 .empresa{
+    position: relative;
     font-size: 60px;
-    padding-right: 0;
+    margin-left: 2%;
     color:#FFFFFF;
 }
 
@@ -53,57 +56,72 @@ a{
 .bloco1{
     display:flex;
     align-items: center;
-    padding-top: 4vh;
+    margin-top: 2%;
+    margin-left: 14%;
 }
 
 .titulo{
-    position:absolute;
+    position:relative;
     font-size: 50px;
-    top: 16vh;
-    left: 15vh;
+    margin-top: 2%;
+    margin-left: 9%;
+    padding-bottom: 40px;
 }
 
 .descrição1{
-    padding-right: 30vh;
-    padding-left: 15vh;
+    margin-top: -8%;
+    margin-left: -5%;
+    margin-right: 15%;
     font-size: 30px;
 }
 
 .bloco2{
     display:flex;
     align-items: center;
-    padding-left: 14vh;
-    padding-top: 7vh;
+    margin-left: 13%;
 }
 
 .titulo2{
-    position:absolute;
+    position:relative;
     font-size: 50px;
-    top: 54vh;
-    left: 75vh;
+    margin-top: 4%;
+    margin-left: 52%;
+    padding-bottom: 40px;
 }
 
 .descrição2{
-    padding-left: 30vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: -3%;
     font-size: 30px;
+}
+
+.bloco2 img{ 
+    left: -5%;
 }
 
 .bloco3{
     display:flex;
+    flex-direction: row;
     align-items: center;
-    padding-top: 7vh;
+    margin-top: 7%;
 }
 
 .titulo3{
-    position:absolute;
+    position:relative;
     font-size: 50px;
-    top: 88vh;
-    left: 15vh;
+    margin-top: 8%;
+    margin-left: 10%;
+    padding-bottom: 40px;
 }
 
 .descrição3{
-    padding-right: 30vh;
-    padding-left: 15vh;
+    margin-top: -12%;
+    margin-right: 15%;
+    margin-left: 10%;
     font-size: 30px;
 }
 
@@ -111,8 +129,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 0%;
-    padding-bottom: 7vh;
+    padding-bottom: 1%;
 }
 
 #sobre{
@@ -120,22 +137,22 @@ a{
 }
 
 .descrição4{
-    padding-top: 2vh;
     font-size: 35px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 .end{
-    position: absolute;
+    position: relative;
     color: #f9004d;
     top: 175%;
     font-size: 20px;
-    padding-bottom: 30px;
+    margin: 1%;
 }
 
 .endereço{
-    position: absolute;
-    top: 170vh;
+    position: relative;
+    top: 170%;
     font-size: 20px;
+    margin: 3%;
 }
